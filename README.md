@@ -34,6 +34,7 @@ The AI uses:
 ## 📈 Training Progress by Milestones
 
 Ep: 134/550 | Score: 1 | Max: 1 | Avg100: 0.0 | e : 0.012 | -- first point
+Ep: 276/550 | Score: 2 | Max: 2 | Avg100: 0.1 | ε: 0.010 | -- second point
 
 
 ## 🎯 Features
