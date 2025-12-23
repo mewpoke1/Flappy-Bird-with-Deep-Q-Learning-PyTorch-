@@ -1,4 +1,4 @@
-# Flappy Bird with Deep Q-Learning (DQN)
+# Flappy Bird with Deep Q-Learning
 
 An AI agent that learns to play Flappy Bird using Deep Q Learning with PyTorch.
 
@@ -8,10 +8,11 @@ This project implements a Deep Q-Network (DQN) to train an AI agent created by C
 
 ## 📊 Results
 
-- **Training Episodes**: 550 (can run up to 2000)
-- **Best Score**: 23 points
+- **Training Episodes**: 700 (can run up to 2000)
+- **Best Score**: 17 points
 - **Human Baseline**: 10-15 points
-- **Status**: AI surpassed human performance! 🎉
+- **Status**: AI surpassed human baseline! 🎉
+- **Best Path** file is provided
 
 ## 🧠 How It Works
 
@@ -30,14 +31,17 @@ The AI uses:
 - PyTorch
 - Pygame 
 
-
 ## 📈 Training Progress by Milestones
 
 Ep: 134/550 | Score: 1 | Max: 1 | Avg100: 0.0 | e : 0.012 | -- AI got it's 1st point
 
 Ep: 276/550 | Score: 2 | Max: 2 | Avg100: 0.1 | ε: 0.010 | -- AI got it's 2nd point
 
-Ep: 334/550 | Score: 5 | Max: 5 | Avg100: 0.4 | ε: 0.010 | -- AI got it's 5th point
+Ep: 334/2000 | Score: 5 | Max: 5 | Avg100: 0.4 | ε: 0.010 | -- AI got it's 5th point
+
+Ep: 659/2000 | Score: 17 | Max: 17 | Avg100: 0.9 | ε: 0.010 | -- AI got it's 17th point (max score)
+
+Ep: 700/2000 | Score: 1 | Max: 17 | Avg100: 1.1 | ε: 0.010 | -- final episode tested
 
 ## 🎯 Features
 
