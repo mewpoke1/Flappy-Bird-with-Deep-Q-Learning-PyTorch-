@@ -52,7 +52,6 @@ flappy-bird-dqn/
     ├── pygame2.py          # Main training script
 ├── bg.png                  # Background image
 ├── FlappyBird.png     # Bird sprite
-├── README.md               # This file
 ```
 
 ## 👤 Author
