@@ -8,9 +8,9 @@ This project implements a Deep Q-Network (DQN) to train an AI agent created by C
 
 ## 📊 Results
 
-- **Training Episodes**: 550
-- **Best Score**: 23 pipes
-- **Human Baseline**: 15-20 pipes
+- **Training Episodes**: 550 (can run up to 2000)
+- **Best Score**: 23 points
+- **Human Baseline**: 10-15 points
 - **Status**: AI surpassed human performance! 🎉
 
 ## 🧠 How It Works
@@ -33,9 +33,11 @@ The AI uses:
 
 ## 📈 Training Progress by Milestones
 
-Ep: 134/550 | Score: 1 | Max: 1 | Avg100: 0.0 | e : 0.012 | -- first point
-Ep: 276/550 | Score: 2 | Max: 2 | Avg100: 0.1 | ε: 0.010 | -- second point
+Ep: 134/550 | Score: 1 | Max: 1 | Avg100: 0.0 | e : 0.012 | -- AI got it's 1st point
 
+Ep: 276/550 | Score: 2 | Max: 2 | Avg100: 0.1 | ε: 0.010 | -- AI got it's 2nd point
+
+Ep: 334/550 | Score: 5 | Max: 5 | Avg100: 0.4 | ε: 0.010 | -- AI got it's 5th point
 
 ## 🎯 Features
 
@@ -46,10 +48,10 @@ Ep: 276/550 | Score: 2 | Max: 2 | Avg100: 0.1 | ε: 0.010 | -- second point
 ## 📁 Project Structure
 ```
 flappy-bird-dqn/
-├── flappy_dqn.py          # Main training script
+├── Pygame # normal folder
+    ├── pygame2.py          # Main training script
 ├── bg.png                  # Background image
 ├── FlappyBird.png     # Bird sprite
-├── flappy_bird_best.pth    # Best model weights
 ├── README.md               # This file
 ```
 
